@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Work Sans','Open Sans', sans-serif;   
+}
+
+section{
+    background-color: white;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculadora{
+    width: 600px;
+}
+
+.display{
+    font-size: 2.5em;
+    text-align: right;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background-color: #424548cb;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #424548; ;
+}
+
+.btn-eq{
+    background-color: #1586e9cb;
+}
+
+.btn-eq:hover{
+    background-color: #1586E9;
+}
